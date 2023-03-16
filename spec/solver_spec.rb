@@ -37,7 +37,7 @@ describe Solver do
       # asset
       word = solver.reverse('hello')
       # act
-      expect(word).to be('olleh')
+      expect(word).to eq('olleh')
     end
   end
 
