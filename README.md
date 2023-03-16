@@ -26,23 +26,23 @@
 
 # 📖 Practice Test Driven Development(TDD) <a name="about-project"></a>
 
->In this project you will implement a class with some methods, but you will do it by doing test-driven development (TDD). Remember that the idea is to write tests first and then the code.
-#Project requirements
->- Create a class called Solver.
-Create a method called factorial that takes one argument, an integer N, and returns the factorial for that number. The factorial is the multiplication of all integers from 1 to N and has the special case that the factorial of 0 is 1. This method only accepts 0 and positive integers, so if a negative integer is given it should raise an exception.
-Create a method called reverse that takes one argument, a string word, and returns word reversed (e.g. if word is "hello" it returns "olleh").
->- Create a method called fizzbuzz that takes one argument, an integer N, and returns a string. The returned string is constructed following these rules:
-When N is divisible by 3, return "fizz".
-When N is divisible by 5, return "buzz".
-When N is divisible by 3 and 5, return "fizzbuzz".
-Any other case, return N as a string (e.g. say N is 7 then return "7").
-Remember to start with tests for all of the methods described above. Your commit history should prove that you have used TDD.
-
-
+> In this project you will implement a class with some methods, but you will do it by doing test-driven development (TDD). Remember that the idea is to write tests first and then the code.
+> #Project requirements
+>
+> - Create a class called Solver.
+>   Create a method called factorial that takes one argument, an integer N, and returns the factorial for that number. The factorial is the multiplication of all integers from 1 to N and has the special case that the factorial of 0 is 1. This method only accepts 0 and positive integers, so if a negative integer is given it should raise an exception.
+>   Create a method called reverse that takes one argument, a string word, and returns word reversed (e.g. if word is "hello" it returns "olleh").
+> - Create a method called fizzbuzz that takes one argument, an integer N, and returns a string. The returned string is constructed following these rules:
+>   When N is divisible by 3, return "fizz".
+>   When N is divisible by 5, return "buzz".
+>   When N is divisible by 3 and 5, return "fizzbuzz".
+>   Any other case, return N as a string (e.g. say N is 7 then return "7").
+>   Remember to start with tests for all of the methods described above. Your commit history should prove that you have used TDD.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ## 🛠 Tech Stack <a name="tech-stack"></a>
+
   <li><a href="">Ruby</a></li>
   <li><a href="">Rspec</a></li>
 <details>
@@ -55,9 +55,10 @@ Remember to start with tests for all of the methods described above. Your commit
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
->- serves as good practice for TDD.
->- Reverse a string app.
->- FizzBuzz app
+
+> - serves as good practice for TDD.
+> - Reverse a string app.
+> - FizzBuzz app
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,7 +109,7 @@ Install this project with:
 ### Usage
 
 - Use this project as a step to learning to practice building backend applications with Ruby and OOP concepts.
->- run "Rspec your-file-name"
+  > - run "Rspec your-file-name"
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,10 +123,11 @@ Install this project with:
 - Twitter: [@admirerbrown](https://twitter.com/brown_admirer)
 - LinkedIn: [@samuelkyere](https://www.linkedin.com/in/samuel-ntow-kyere/)
 
-👤 **Hassan EL OUARDY** 
-- GitHub: [@codehass](https://github.com/codehass) 
-- Twitter: [@hassanelourdy](https://twitter.com/hassanelourdy) 
-- LinkedIn: [Hassan El OUARDY](https://www.linkedin.com/in/hassan-el-ouardy-360b99169/) 
+👤 **Hassan EL OUARDY**
+
+- GitHub: [@codehass](https://github.com/codehass)
+- Twitter: [@hassanelourdy](https://twitter.com/hassanelourdy)
+- LinkedIn: [Hassan El OUARDY](https://www.linkedin.com/in/hassan-el-ouardy-360b99169/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,7 +136,7 @@ Install this project with:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Add more practice classes **
-- [ ]  Add more complex requirements
+- [ ] Add more complex requirements
 - [ ] Add console interface
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -183,6 +185,6 @@ I would like to thank Microverse for providing us with reading materials that ai
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/admirerbrown/TDD-project/blob/develop/LICENSE.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
