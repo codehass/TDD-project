@@ -9,7 +9,7 @@ describe Solver do
     end
   end
 
-  # testing for factorial method 
+  # testing for factorial method
   describe '#factorial' do
     it 'Return the factorial  of the number' do
       solver = Solver.new
@@ -28,7 +28,7 @@ describe Solver do
     end
   end
 
-  #Testing for reverse method
+  # Testing for reverse method
 
   describe '#reverse' do
     it 'Return the reverse of the word' do
@@ -41,34 +41,34 @@ describe Solver do
     end
   end
 
-  #Testing for fizzbuzz method
+  # Testing for fizzbuzz method
 
   describe '#fizzbuzz' do
     it 'Return the "fizz" when N divisible by 3' do
       solver = Solver.new
       number = solver.fizzbuzz(3)
-      fizzbuzz_number = "fizz"
+      fizzbuzz_number = 'fizz'
       expect(number).to eq(fizzbuzz_number)
     end
 
     it 'Return the "buzz" when N divisible by 5' do
       solver = Solver.new
       number = solver.fizzbuzz(5)
-      fizzbuzz_number = "buzz"
+      fizzbuzz_number = 'buzz'
       expect(number).to eq(fizzbuzz_number)
     end
 
-    it 'Return the "fizzbuzz" when N divisible by 3 and 5'  do
+    it 'Return the "fizzbuzz" when N divisible by 3 and 5' do
       solver = Solver.new
       number = solver.fizzbuzz(15)
-      fizzbuzz_number = "fizzbuzz"
+      fizzbuzz_number = 'fizzbuzz'
       expect(number).to eq(fizzbuzz_number)
     end
 
-    it 'Return the string "N" as string an any other case'  do
+    it 'Return the string "N" as string an any other case' do
       solver = Solver.new
       number = solver.fizzbuzz(7)
-      fizzbuzz_number = "7"
+      fizzbuzz_number = '7'
       expect(number).to eq(fizzbuzz_number)
     end
   end
